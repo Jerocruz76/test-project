@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 300px;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 15vh 90vh;
+    background-image: url(./WhatsApp\ Image\ 2024-05-15\ at\ 3.56.28\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title-back-moreinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+button{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    margin: 25px 25px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 3px solid black;
+    backdrop-filter: blur(10px);
+    color: azure;
+}
+
+.hola{
+    .icons{
+        overflow: scroll;
+        height: 70vh;
+    }
+}
+
+.shopTitle{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    backdrop-filter: blur(40px);
+}
+
+.shopSection{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.shopSelection{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.icono{
+    width: 100px;
+    margin-top: 15px;
+}
+
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.available{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    .availableAvatar{
+        overflow: scroll;
+        height: 50vh;
+    }
+}
+
+.available{
+    text-align: center;
+    h2{
+        text-align: center;
+    }
+}
+
+.availableAvatar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.availables{
+    width: 130px;
+}
+
+.equip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipar{
+    display: flex;
+    justify-content: center;
+}
+
+.desequipar{
+    display: flex;
+    justify-content: center;
+}
+
+.useravatar{
+    width: 200px;
+}
+
+.accesorios{
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.tuavatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h2{
+    padding: 0;
+    margin: 0;
+    width: 10px;
+}
